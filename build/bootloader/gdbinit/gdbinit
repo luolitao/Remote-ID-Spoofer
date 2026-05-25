@@ -1,0 +1,2 @@
+source /Users/luolitao/esp32s3/Remote-ID-Spoofer-main/build/bootloader/gdbinit/symbols
+source /Users/luolitao/esp32s3/Remote-ID-Spoofer-main/build/bootloader/gdbinit/connect

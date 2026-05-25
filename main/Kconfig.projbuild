@@ -1,0 +1,29 @@
+menu "Remote ID Spoofer Configuration"
+
+    config SPOOF_MAC_ADDRESS
+        string "Spoof MAC Address"
+        default "60:60:1f:d3:B2:6a"
+        help
+            MAC address to use for spoofing. Format: XX:XX:XX:XX:XX:XX
+            If empty, a random MAC will be generated on each boot.
+
+    config BEACON_SSID
+        string "Beacon SSID"
+        default "ESP_SPOOF"
+        help
+            SSID name for the beacon frames
+
+    config BEACON_CHANNEL
+        int "Beacon Channel"
+        default 6
+        range 1 13
+        help
+            WiFi channel for broadcasting (1-13)
+
+    config TX_INTERVAL_MS
+        int "Transmission Interval (ms)"
+        default 500
+        help
+            Interval between beacon transmissions in milliseconds
+
+endmenu
