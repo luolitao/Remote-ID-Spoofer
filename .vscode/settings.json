@@ -1,8 +1,18 @@
 {
-    "idf.currentSetup": "C:\\Users\\luolitao\\esp\\v6.0\\esp-idf",
-    "idf.port": "/dev/tty.usbmodem1101",
-    "idf.openOcdConfigs": [
-        "board/esp32s3-builtin.cfg"
-    ],
-    "idf.flashType": "UART"
+  "idf.currentSetup": "C:\\Users\\luolitao\\esp\\v6.0\\esp-idf",
+  "idf.portWin": "COM21",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Users\\luolitao\\.espressif\\tools\\esp-clang\\esp-20.1.1_20250829\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\MyProjects\\ESP\\Remote-ID-Spoofer-main\\build"
+  ],
+  "idf.flashType": "UART",
+  "idf.monitorPort": "COM21"
 }
