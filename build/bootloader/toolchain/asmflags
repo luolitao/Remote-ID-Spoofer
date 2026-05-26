@@ -1,5 +1,0 @@
-"-specs=/Users/luolitao/esp32s3/Remote-ID-Spoofer-main/build/bootloader/specs/picolibc.specs"
--mlongcalls
--fno-builtin-memcpy
--fno-builtin-memset
--fno-builtin-bzero
